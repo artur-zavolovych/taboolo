@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90D44B90284A7BCE009E1274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D44B8F284A7BCE009E1274 /* AppDelegate.swift */; };
+		90D44B92284A7BCE009E1274 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D44B91284A7BCE009E1274 /* SceneDelegate.swift */; };
+		90D44B94284A7BCE009E1274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D44B93284A7BCE009E1274 /* ViewController.swift */; };
+		90D44B97284A7BCE009E1274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D44B95284A7BCE009E1274 /* Main.storyboard */; };
+		90D44B99284A7BD0009E1274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D44B98284A7BD0009E1274 /* Assets.xcassets */; };
+		90D44B9C284A7BD0009E1274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D44B9A284A7BD0009E1274 /* LaunchScreen.storyboard */; };
+		90D44BA7284A7BD0009E1274 /* TabooloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D44BA6284A7BD0009E1274 /* TabooloTests.swift */; };
+		90D44BB1284A7BD0009E1274 /* TabooloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D44BB0284A7BD0009E1274 /* TabooloUITests.swift */; };
+		90D44BB3284A7BD0009E1274 /* TabooloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D44BB2284A7BD0009E1274 /* TabooloUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90D44BA3284A7BD0009E1274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D44B84284A7BCE009E1274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D44B8B284A7BCE009E1274;
+			remoteInfo = Taboolo;
+		};
+		90D44BAD284A7BD0009E1274 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90D44B84284A7BCE009E1274 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90D44B8B284A7BCE009E1274;
+			remoteInfo = Taboolo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90D44B8C284A7BCE009E1274 /* Taboolo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taboolo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D44B8F284A7BCE009E1274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90D44B91284A7BCE009E1274 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90D44B93284A7BCE009E1274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90D44B96284A7BCE009E1274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90D44B98284A7BD0009E1274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90D44B9B284A7BD0009E1274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90D44B9D284A7BD0009E1274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D44BA2284A7BD0009E1274 /* TabooloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabooloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D44BA6284A7BD0009E1274 /* TabooloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabooloTests.swift; sourceTree = "<group>"; };
+		90D44BAC284A7BD0009E1274 /* TabooloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabooloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D44BB0284A7BD0009E1274 /* TabooloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabooloUITests.swift; sourceTree = "<group>"; };
+		90D44BB2284A7BD0009E1274 /* TabooloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabooloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90D44B89284A7BCE009E1274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D44B9F284A7BD0009E1274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D44BA9284A7BD0009E1274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90D44B83284A7BCE009E1274 = {
+			isa = PBXGroup;
+			children = (
+				90D44B8E284A7BCE009E1274 /* Taboolo */,
+				90D44BA5284A7BD0009E1274 /* TabooloTests */,
+				90D44BAF284A7BD0009E1274 /* TabooloUITests */,
+				90D44B8D284A7BCE009E1274 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90D44B8D284A7BCE009E1274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90D44B8C284A7BCE009E1274 /* Taboolo.app */,
+				90D44BA2284A7BD0009E1274 /* TabooloTests.xctest */,
+				90D44BAC284A7BD0009E1274 /* TabooloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90D44B8E284A7BCE009E1274 /* Taboolo */ = {
+			isa = PBXGroup;
+			children = (
+				90D44B8F284A7BCE009E1274 /* AppDelegate.swift */,
+				90D44B91284A7BCE009E1274 /* SceneDelegate.swift */,
+				90D44B93284A7BCE009E1274 /* ViewController.swift */,
+				90D44B95284A7BCE009E1274 /* Main.storyboard */,
+				90D44B98284A7BD0009E1274 /* Assets.xcassets */,
+				90D44B9A284A7BD0009E1274 /* LaunchScreen.storyboard */,
+				90D44B9D284A7BD0009E1274 /* Info.plist */,
+			);
+			path = Taboolo;
+			sourceTree = "<group>";
+		};
+		90D44BA5284A7BD0009E1274 /* TabooloTests */ = {
+			isa = PBXGroup;
+			children = (
+				90D44BA6284A7BD0009E1274 /* TabooloTests.swift */,
+			);
+			path = TabooloTests;
+			sourceTree = "<group>";
+		};
+		90D44BAF284A7BD0009E1274 /* TabooloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				90D44BB0284A7BD0009E1274 /* TabooloUITests.swift */,
+				90D44BB2284A7BD0009E1274 /* TabooloUITestsLaunchTests.swift */,
+			);
+			path = TabooloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90D44B8B284A7BCE009E1274 /* Taboolo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D44BB6284A7BD0009E1274 /* Build configuration list for PBXNativeTarget "Taboolo" */;
+			buildPhases = (
+				90D44B88284A7BCE009E1274 /* Sources */,
+				90D44B89284A7BCE009E1274 /* Frameworks */,
+				90D44B8A284A7BCE009E1274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Taboolo;
+			productName = Taboolo;
+			productReference = 90D44B8C284A7BCE009E1274 /* Taboolo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90D44BA1284A7BD0009E1274 /* TabooloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D44BB9284A7BD0009E1274 /* Build configuration list for PBXNativeTarget "TabooloTests" */;
+			buildPhases = (
+				90D44B9E284A7BD0009E1274 /* Sources */,
+				90D44B9F284A7BD0009E1274 /* Frameworks */,
+				90D44BA0284A7BD0009E1274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D44BA4284A7BD0009E1274 /* PBXTargetDependency */,
+			);
+			name = TabooloTests;
+			productName = TabooloTests;
+			productReference = 90D44BA2284A7BD0009E1274 /* TabooloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		90D44BAB284A7BD0009E1274 /* TabooloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D44BBC284A7BD0009E1274 /* Build configuration list for PBXNativeTarget "TabooloUITests" */;
+			buildPhases = (
+				90D44BA8284A7BD0009E1274 /* Sources */,
+				90D44BA9284A7BD0009E1274 /* Frameworks */,
+				90D44BAA284A7BD0009E1274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90D44BAE284A7BD0009E1274 /* PBXTargetDependency */,
+			);
+			name = TabooloUITests;
+			productName = TabooloUITests;
+			productReference = 90D44BAC284A7BD0009E1274 /* TabooloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90D44B84284A7BCE009E1274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					90D44B8B284A7BCE009E1274 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					90D44BA1284A7BD0009E1274 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 90D44B8B284A7BCE009E1274;
+					};
+					90D44BAB284A7BD0009E1274 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 90D44B8B284A7BCE009E1274;
+					};
+				};
+			};
+			buildConfigurationList = 90D44B87284A7BCE009E1274 /* Build configuration list for PBXProject "Taboolo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90D44B83284A7BCE009E1274;
+			productRefGroup = 90D44B8D284A7BCE009E1274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90D44B8B284A7BCE009E1274 /* Taboolo */,
+				90D44BA1284A7BD0009E1274 /* TabooloTests */,
+				90D44BAB284A7BD0009E1274 /* TabooloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90D44B8A284A7BCE009E1274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D44B9C284A7BD0009E1274 /* LaunchScreen.storyboard in Resources */,
+				90D44B99284A7BD0009E1274 /* Assets.xcassets in Resources */,
+				90D44B97284A7BCE009E1274 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D44BA0284A7BD0009E1274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D44BAA284A7BD0009E1274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90D44B88284A7BCE009E1274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D44B94284A7BCE009E1274 /* ViewController.swift in Sources */,
+				90D44B90284A7BCE009E1274 /* AppDelegate.swift in Sources */,
+				90D44B92284A7BCE009E1274 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D44B9E284A7BD0009E1274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D44BA7284A7BD0009E1274 /* TabooloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D44BA8284A7BD0009E1274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D44BB1284A7BD0009E1274 /* TabooloUITests.swift in Sources */,
+				90D44BB3284A7BD0009E1274 /* TabooloUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90D44BA4284A7BD0009E1274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90D44B8B284A7BCE009E1274 /* Taboolo */;
+			targetProxy = 90D44BA3284A7BD0009E1274 /* PBXContainerItemProxy */;
+		};
+		90D44BAE284A7BD0009E1274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90D44B8B284A7BCE009E1274 /* Taboolo */;
+			targetProxy = 90D44BAD284A7BD0009E1274 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90D44B95284A7BCE009E1274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D44B96284A7BCE009E1274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90D44B9A284A7BD0009E1274 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D44B9B284A7BD0009E1274 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90D44BB4284A7BD0009E1274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90D44BB5284A7BD0009E1274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90D44BB7284A7BD0009E1274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7SPV5SRCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Taboolo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taboola.Taboolo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90D44BB8284A7BD0009E1274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7SPV5SRCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Taboolo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taboola.Taboolo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90D44BBA284A7BD0009E1274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7SPV5SRCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taboola.TabooloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taboolo.app/Taboolo";
+			};
+			name = Debug;
+		};
+		90D44BBB284A7BD0009E1274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7SPV5SRCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taboola.TabooloTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taboolo.app/Taboolo";
+			};
+			name = Release;
+		};
+		90D44BBD284A7BD0009E1274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7SPV5SRCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taboola.TabooloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Taboolo;
+			};
+			name = Debug;
+		};
+		90D44BBE284A7BD0009E1274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7SPV5SRCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = taboola.TabooloUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Taboolo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90D44B87284A7BCE009E1274 /* Build configuration list for PBXProject "Taboolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D44BB4284A7BD0009E1274 /* Debug */,
+				90D44BB5284A7BD0009E1274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D44BB6284A7BD0009E1274 /* Build configuration list for PBXNativeTarget "Taboolo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D44BB7284A7BD0009E1274 /* Debug */,
+				90D44BB8284A7BD0009E1274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D44BB9284A7BD0009E1274 /* Build configuration list for PBXNativeTarget "TabooloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D44BBA284A7BD0009E1274 /* Debug */,
+				90D44BBB284A7BD0009E1274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D44BBC284A7BD0009E1274 /* Build configuration list for PBXNativeTarget "TabooloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D44BBD284A7BD0009E1274 /* Debug */,
+				90D44BBE284A7BD0009E1274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90D44B84284A7BCE009E1274 /* Project object */;
+}
